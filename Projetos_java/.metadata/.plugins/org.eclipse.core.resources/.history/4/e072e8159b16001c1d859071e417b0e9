@@ -1,0 +1,5 @@
+package br.com.roverproblem;
+
+public interface Position {
+
+}

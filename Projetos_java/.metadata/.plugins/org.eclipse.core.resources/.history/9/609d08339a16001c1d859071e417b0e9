@@ -1,0 +1,54 @@
+package br.com.roverproblem;
+
+import javax.swing.JOptionPane;
+
+public class Pricipal {
+
+	public static void main(String[] args) {
+	
+			
+		int maxInputs = 5;		
+		
+		int maxY =Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+		System.out.println(maxY);
+//		tamanhoMaxDoX=5
+//				tamanhoMaxDoY=5
+//				x=1
+//				y=2
+//				orientation=N
+//
+//				if(command == L){
+//					switch orientation
+//					case N:
+//						orientation=W
+//					case W:
+//						orientation=S
+//					case S:
+//						orientation=E
+//					case E:
+//						orientation=N
+//				}
+//				else if(command == R){
+//					switch orientation
+//					case N:
+//						orientation=E
+//					case E:
+//						orientation=S
+//					case S:
+//						orientation=W
+//					case W:
+//						orientation=N
+//				}
+//				else{
+//					switch orietation
+//					case N:
+//						y++;
+//					case W:
+//						x--;
+//					case S:
+//						y--;
+//					case E:
+//						x++;
+//				}
+	}
+}

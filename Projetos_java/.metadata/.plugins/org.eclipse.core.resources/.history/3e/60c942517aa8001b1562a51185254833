@@ -1,0 +1,14 @@
+
+public class TestaGetSet {
+	
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		//conta.numero = 1336;
+		conta.setTitular(matheus);
+		conta.setNumero(1336);
+		
+		
+		System.out.println("Conta número: " + conta.getNumero());
+		
+	}
+}

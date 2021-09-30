@@ -1,0 +1,6 @@
+Byte Bank
+
+no byte bank um usuario pode ter uma conta
+
+conta: Saldo, agencia, numero e titular
+Ações: Sacar, Depositar, Transfere, Exibe saldo

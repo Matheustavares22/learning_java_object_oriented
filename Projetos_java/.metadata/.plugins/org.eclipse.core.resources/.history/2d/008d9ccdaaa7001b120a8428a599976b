@@ -1,0 +1,24 @@
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.saldo = 100;
+		conta.deposita(50);
+		System.out.println(conta.saldo);
+		
+		Conta conta2 = new Conta();
+		conta2.deposita(30);
+		
+		Conta cMatheus = new Conta();
+		cMatheus.deposita(100);
+		
+		if (cMatheus.saca(20)) {
+			System.out.println("saque realizado com sucesso");
+			System.out.println(cMatheus.saldo);
+		} else {
+			System.out.println("Valor indisponivel");
+		}
+		
+	}
+}

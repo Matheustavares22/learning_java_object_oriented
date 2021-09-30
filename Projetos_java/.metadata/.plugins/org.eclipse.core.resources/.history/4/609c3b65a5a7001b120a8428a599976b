@@ -1,0 +1,9 @@
+public class Conta {	
+	double saldo;
+	int agencia;
+	int numero;
+	String Titular;
+}
+
+//Classe é como o blueprint de uma casa
+//   As contas feitas a partir da classe sim são objetos ou instâncias

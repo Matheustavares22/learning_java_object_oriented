@@ -1,0 +1,35 @@
+
+public class FluxoComTratamento {
+	
+    public static void main(String[] args) {
+        System.out.println("ini do main");
+        try {
+        	metodo1();
+        } catch(ArithmeticException | NullPointerException ex) {
+        	String msg = ex.getMessage();
+        	ex.printStackTrace();	        	
+        }
+        System.out.println("fim do main");
+    }
+
+    public static void metodo1() {
+        System.out.println("ini metodo1");
+        try {
+        	metodo2();
+    	} catch(ArithmeticException | NullPointerException ex) {
+    		//String msg = ex.getMessage();    		
+    		//System.out.println("ArithmeticException" + ex);
+    		System.out.println("Exeption " + ex.getMessage());
+    		ex.printStackTrace();
+    	}
+        System.out.println("fim metodo1");
+    }
+
+    public static void metodo2() {
+        System.out.println("ini metodo2");
+        
+        ArithmeticException exeption = new ArithmeticException();
+        throw ex
+        System.out.println("fim metodo2");	    
+    }
+}

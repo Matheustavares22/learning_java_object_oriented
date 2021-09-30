@@ -1,0 +1,16 @@
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		Conta cMatheus = new Conta();
+		cMatheus.deposita(100);
+		
+		if (cMatheus.saca(20)) {
+			System.out.println("saque realizado com sucesso");
+			System.out.println(cMatheus.saldo);
+		} else {
+			System.out.println("Valor indisponivel");
+		}
+		
+	}
+}
